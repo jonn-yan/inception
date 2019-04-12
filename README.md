@@ -18,7 +18,7 @@ http://mysql-inception.github.io/inception-document/
 https://inception-document.readthedocs.io/zh_CN/latest/install/#inception
 
 
-#Inception安装说明
+## Inception安装说明
 看到这个手册，想必已经得到了源码，恭喜你。
 
 首先就是编译，在源码根目录下面有一个文件inception_build.sh，执行命令sh inception_build.sh，会输出使用方法。 实际上只需要执行inception_build.sh debug [Xcode]即可，后面的平台是可选的，如果不指定就是linux平台，而如果要指定是Xcode，就后面指定Xcode，而debug是编译的目录，编译之后，所有的生成文件都在这个目录下面，包括可执行文件Inception。可执行文件在debug/sql/Debug/目录下面（不同平台有可能不相同）。
